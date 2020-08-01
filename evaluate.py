@@ -1,7 +1,7 @@
 import sys
 import json
 import argparse
-sys.path.append('../coco-caption-py3')
+sys.path.append('../')
 from pycocoevalcap.eval import COCOEvalCap
 from pycocotools.coco import COCO
 import matplotlib.pyplot as plt
