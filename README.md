@@ -57,6 +57,9 @@ $ python evaluate.py
 run visualize_caption.ipynb
 
 ## Results
+With hyperparameters as follows:
+embed_size = 256, hidden_size = 512, num_layers = 1, num_epochs = 10, batch_size = 256, learning_rate = 0.001, drop_out = 0.1
+
 | Beam Width | 1     | 3     | 5     | 10    |
 |------------|-------|-------|-------|-------|
 | Bleu_1     | 0.571 | 0.566 | 0.559 | 0.549 |
