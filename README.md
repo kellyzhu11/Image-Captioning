@@ -24,7 +24,7 @@ $ sudo python setup.py install
 $ cd ../../
 
 # download coco evaluation
-$ git clone https://github.com/salaniz/pycocoevalcap
+$ git clone https://github.com/salaniz/pycocoevalcap.git
 
 # download this respository
 $ git clone https://github.com/kellyzhu11/Image-Captioning.git
