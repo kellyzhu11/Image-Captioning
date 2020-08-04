@@ -38,21 +38,21 @@ $ chmod +x download.sh
 $ ./download.sh
 $ python build_vocab.py   
 ```
-### train the model
+### Train the model
 ```bash
 $ python train.py
 ```
 
-### generate captions using trained model
+### Generate captions using trained model
 ```bash
 $ python test.py
 ```
 
-### calculate scores for generated captions
+### Calculate scores for generated captions
 ```bash
 $ python evaluate.py
 ```
-### manual inspection of captions and iamges
+### Visualize captions and images
 
 run visualize_caption.ipynb
 
@@ -71,7 +71,16 @@ embed_size = 256, hidden_size = 512, num_layers = 1, num_epochs = 10, batch_size
 | CIDEr      | 0.424 | 0.434 | 0.425 | 0.498 |
 | SPICE      | 0.120 | 0.123 | 0.123 | 0.123 |
 
-
+Example 1:
+<p align="center">
+  <img src=https://raw.githubusercontent.com/kellyzhu11/Image-Captioning/master/pics/example1.png width=700/>
+</p>
+  
+Example 2:
+<p align="center">
+  <img src=https://raw.githubusercontent.com/kellyzhu11/Image-Captioning/master/pics/example2.png width=700/>
+</p>
+  
 ## References
 
 [1] Vinyals, Oriol, et al. "Show and tell: A neural image caption generator." Proceedings of the IEEE conference on computer vision and pattern recognition. 2015.
